@@ -10,7 +10,7 @@ The RSVP service is implemented using TypeScript, following modern best practice
 
 ## File Structure
 
-```
+
 /src
  ├── /interfaces
  │    ├── Logger.ts         // Logger interface for dependency injection
@@ -21,7 +21,7 @@ The RSVP service is implemented using TypeScript, following modern best practice
  ├── /utils
  │    └── ConsoleLogger.ts  // A basic console logger implementation
  └── index.ts              // Application entry point demonstrating service usage
-```
+
 
 ## Installation
 
@@ -31,12 +31,12 @@ The RSVP service is implemented using TypeScript, following modern best practice
 
    ```bash
    npm init -y
-   ```
+   
 
 2. **Install Dependencies:**
 
    Install TypeScript, ts-node, and Node.js type definitions as development dependencies:
 
-   ```bash
+   ``'bash
    npm install typescript ts-node @types/node --save-dev
-   ```
+   
